@@ -1,0 +1,13 @@
+# Ignore the Python environment
+venv/
+__pycache__/
+
+# Ignore data files (but keep the folder structure via .gitkeep)
+data/*
+!data/**/.gitkeep
+*.csv
+*.tif
+*.geojson
+
+# Ignore environment variables (passwords)
+.env
